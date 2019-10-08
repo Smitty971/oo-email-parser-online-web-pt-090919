@@ -8,7 +8,7 @@ class EmailAddressParser
   end
   
   def parse
-    
+    @email.gsub()
   end
 binding.pry
 end 
