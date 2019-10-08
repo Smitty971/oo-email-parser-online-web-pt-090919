@@ -13,4 +13,3 @@ class EmailAddressParser
   end
 #binding.pry
 end 
-@emails = @emails.gsub(/[\s,]/ ," ").split
