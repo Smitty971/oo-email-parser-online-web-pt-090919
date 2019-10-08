@@ -1,4 +1,4 @@
-
+require "pry"
 class EmailAddressParser
   
   attr_accessor :name 
@@ -10,5 +10,5 @@ class EmailAddressParser
   def parse
     
   end
-  
+binding.pry
 end 
