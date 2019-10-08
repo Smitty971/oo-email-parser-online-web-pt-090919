@@ -8,7 +8,7 @@ class EmailAddressParser
   end
   
   def parse
-    @email.gsub(/[\z]/, " , " )
+    @email.gsub(/[\w\z]/, " , " )
     @email.uniq
   end
 #binding.pry
